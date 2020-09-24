@@ -272,8 +272,8 @@
       See our <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>Acceptable Use Policy.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </source>
         <target state="new">c 2002-2020 Summits on the Air. Summits on the Airの標記、SOTAの標記とSOTAのトレードマークは無断転用を禁ず。
-      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>このサイトに関するご質問コメントは<x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>ウェブマスター<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>宛にお願いします。<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>まで
-      SOTAプログラムは各自の責任の元でご参加下さい<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>使用許諾条件<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>このサイトに関するご質問コメントは<x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>ウェブマスター<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>宛にお願いします。<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+      SOTAプログラムは各自の責任の元でご参加下さい。<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>使用許諾条件<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
