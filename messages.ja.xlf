@@ -75,7 +75,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.pagination.first" datatype="html">
-        <source>≪≪</source>
+        <source>««</source>
         <target state="new">≪≪</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
@@ -83,7 +83,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
-        <source>≪</source>
+        <source>«</source>
         <target state="new">≪</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
@@ -91,7 +91,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.pagination.next" datatype="html">
-        <source>≫</source>
+        <source>»</source>
         <target state="new">≫</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
@@ -99,7 +99,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.pagination.last" datatype="html">
-        <source>≫≫</source>
+        <source>»»</source>
         <target state="new">≫≫</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
@@ -267,7 +267,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="0ef49cc4a602fbec482e7f6281c70601acdcd802" datatype="html">
-        <source>c 2002-2020 Summits on the Air. Summits on the Air, SOTA and the SOTA Logo are trademarks of the Programme.
+        <source>© 2002-2020 Summits on the Air. Summits on the Air, SOTA and the SOTA Logo are trademarks of the Programme.
       <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Questions or comments about this site should be directed to the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>webmaster<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Participation in SOTA is at your own risk.
       See our <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>Acceptable Use Policy.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </source>
@@ -281,13 +281,17 @@
         </context-group>
         <note priority="1" from="description">@Trademark</note>
       </trans-unit>
-      <trans-unit id="Edit" datatype="html">
+      <trans-unit id="EditAlert" datatype="html">
         <source>Edit</source>
-        <target state="new">編集</target>
+        <target state="new">Edit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="Edit" datatype="html">
+        <source>Edit</source>
+        <target state="new">編集</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">69</context>
@@ -329,16 +333,24 @@
         <source>All</source>
         <target state="new">全</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="VLF" datatype="html">
         <source>VLF</source>
         <target state="new">VLF</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Summit" datatype="html">
@@ -388,6 +400,10 @@
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="ValidSummitCodeRequired" datatype="html">
         <source>
@@ -400,6 +416,10 @@
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="SummitRefHelp" datatype="html">
         <source>(e.g. GM/WS-001)</source>
@@ -407,6 +427,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Cancel" datatype="html">
@@ -418,7 +442,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">153</context>
+          <context context-type="linenumber">152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Title" datatype="html">
@@ -450,11 +474,11 @@
         <target state="new">最新10スポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">60</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Latest20" datatype="html">
@@ -462,11 +486,11 @@
         <target state="new">最新20スポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Latest50" datatype="html">
@@ -474,11 +498,11 @@
         <target state="new">最新50スポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Latest200" datatype="html">
@@ -486,11 +510,11 @@
         <target state="new">最新200スポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SpotsHour" datatype="html">
@@ -498,11 +522,11 @@
         <target state="new">最新1時間のスポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SpotsDay" datatype="html">
@@ -510,11 +534,11 @@
         <target state="new">最新24時間のスポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Spots3" datatype="html">
@@ -522,11 +546,11 @@
         <target state="new">最新3日のスポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SpotsWeek" datatype="html">
@@ -534,11 +558,11 @@
         <target state="new">最新一週間のスポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ShowExpandedSpots" datatype="html">
@@ -550,7 +574,7 @@
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DefaultComment" datatype="html">
@@ -558,11 +582,11 @@
         <target state="new">デフォルトコメント</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="AlertsSettings" datatype="html">
@@ -570,7 +594,7 @@
         <target state="new">アラートの設定</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Theme" datatype="html">
@@ -578,7 +602,7 @@
         <target state="new">テーマ: </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Normal" datatype="html">
@@ -586,7 +610,7 @@
         <target state="new">通常モード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DarkTheme" datatype="html">
@@ -594,7 +618,7 @@
         <target state="new">ダークモード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">120</context>
         </context-group>
       </trans-unit>
       <trans-unit id="FlatTheme" datatype="html">
@@ -602,15 +626,15 @@
         <target state="new">フラットモード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">121</context>
         </context-group>
       </trans-unit>
       <trans-unit id="AudioAlertOnNewSpots" datatype="html">
-        <source>Audio alert on new spots:?</source>
+        <source>Audio alert on new spots: </source>
         <target state="new">新しいスポット情報を通知:?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">98</context>
+          <context context-type="linenumber">126</context>
         </context-group>
       </trans-unit>
       <trans-unit id="None" datatype="html">
@@ -618,7 +642,7 @@
         <target state="new">無し</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="BritFemale" datatype="html">
@@ -626,7 +650,7 @@
         <target state="new">英語女性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="BritMale" datatype="html">
@@ -634,7 +658,7 @@
         <target state="new">英語男性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">131</context>
         </context-group>
       </trans-unit>
       <trans-unit id="USFemale" datatype="html">
@@ -642,7 +666,7 @@
         <target state="new">米語女性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">104</context>
+          <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="USMale" datatype="html">
@@ -650,7 +674,7 @@
         <target state="new">米語男性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DutchFemale" datatype="html">
@@ -658,7 +682,7 @@
         <target state="new">独語女性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DutchMale" datatype="html">
@@ -666,7 +690,7 @@
         <target state="new">独語男性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">107</context>
+          <context context-type="linenumber">135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="JPFemale" datatype="html">
@@ -674,7 +698,7 @@
         <target state="new">日本語女性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">108</context>
+          <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="JPMale" datatype="html">
@@ -682,7 +706,7 @@
         <target state="new">日本語男性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">109</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Layout" datatype="html">
@@ -690,7 +714,7 @@
         <target state="new">レイアウト</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">114</context>
+          <context context-type="linenumber">142</context>
         </context-group>
       </trans-unit>
       <trans-unit id="LeftAligned" datatype="html">
@@ -698,7 +722,7 @@
         <target state="new">左寄</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Centred" datatype="html">
@@ -706,7 +730,7 @@
         <target state="new">中央</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">125</context>
+          <context context-type="linenumber">153</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Submit" datatype="html">
@@ -714,7 +738,7 @@
         <target>提出</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">158</context>
         </context-group>
       </trans-unit>
       <trans-unit id="TimeLocal" datatype="html">
@@ -896,6 +920,10 @@
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">69</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="Comments" datatype="html">
         <source>Comments</source>
@@ -905,8 +933,12 @@
           <context context-type="linenumber">74</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="CommentsHelp" datatype="html">
@@ -925,8 +957,12 @@
           <context context-type="linenumber">79</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Close" datatype="html">
@@ -936,26 +972,14 @@
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="Save" datatype="html">
-        <source>Save</source>
-        <target state="new">保存</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Add" datatype="html">
-        <source>Add</source>
-        <target state="new">追加</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
-          <context context-type="linenumber">88</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Alert" datatype="html">
-        <source>Alert</source>
-        <target state="new">アラート</target>
+      <trans-unit id="SaveAlert" datatype="html">
+        <source>Save Alert</source>
+        <target state="new">Save Alert</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">88</context>
@@ -976,6 +1000,10 @@
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="Settings" datatype="html">
         <source>Settings</source>
@@ -992,10 +1020,22 @@
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">54</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="AddAlert" datatype="html">
         <source>Add Alert</source>
         <target state="new">アラート追加</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">9</context>
@@ -1014,7 +1054,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">153</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ConfirmDelete" datatype="html">
@@ -1026,7 +1066,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">141</context>
+          <context context-type="linenumber">140</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DeleteAreYouSure" datatype="html">
@@ -1041,128 +1081,192 @@
         <source>160m</source>
         <target> 160m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="80m" datatype="html">
         <source>80m</source>
         <target> 80m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="60m" datatype="html">
         <source>60m</source>
         <target> 60m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="40m" datatype="html">
         <source>40m</source>
         <target> 40m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="30m" datatype="html">
         <source>30m</source>
         <target> 30m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="20m" datatype="html">
         <source>20m</source>
         <target> 20m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="17m" datatype="html">
         <source>17m</source>
         <target> 17m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="15m" datatype="html">
         <source>15m</source>
         <target> 15m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="12m" datatype="html">
         <source>12m</source>
         <target> 12m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="10m" datatype="html">
         <source>10m</source>
         <target> 10m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6m" datatype="html">
         <source>6m</source>
         <target> 6m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4m" datatype="html">
         <source>4m</source>
         <target> 4m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2m" datatype="html">
         <source>2m</source>
         <target> 2m </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="70cm" datatype="html">
         <source>70cm</source>
         <target> 70 cm </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="23cm" datatype="html">
         <source>23cm</source>
         <target> 23 cm </target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Microwave" datatype="html">
         <source>Microwave</source>
         <target state="new">マイクロ波</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ToggleExpandedSpots" datatype="html">
@@ -1170,7 +1274,7 @@
         <target state="new">スポット情報を全展開</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SpottedOn" datatype="html">
@@ -1178,7 +1282,7 @@
         <target state="new"> spotted on </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SpottedTime" datatype="html">
@@ -1186,7 +1290,7 @@
         <target state="new"> at </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="LogSpot" datatype="html">
@@ -1194,7 +1298,7 @@
         <target state="new">Log Spot</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">117</context>
+          <context context-type="linenumber">115</context>
         </context-group>
       </trans-unit>
       <trans-unit id="EditSpot" datatype="html">
@@ -1202,7 +1306,7 @@
         <target state="new">スポット情報を編集</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="RepostSpot" datatype="html">
@@ -1210,7 +1314,7 @@
         <target state="new">スポットを再投稿</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DeleteSpot" datatype="html">
@@ -1218,7 +1322,7 @@
         <target state="new">スポットを削除</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">121</context>
+          <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="By" datatype="html">
@@ -1226,7 +1330,7 @@
         <target state="new">by</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">125</context>
+          <context context-type="linenumber">124</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DeleteSpotAreYouSure" datatype="html">
@@ -1234,7 +1338,7 @@
         <target state="new">このスポットを削除しますか?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">148</context>
+          <context context-type="linenumber">147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ByAuthor" datatype="html">
@@ -1271,15 +1375,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">50</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">96</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SSB" datatype="html">
@@ -1291,15 +1395,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">51</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">97</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="OtherMode" datatype="html">
@@ -1311,15 +1415,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">52</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">98</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="FilterExamples" datatype="html">
@@ -1331,15 +1435,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">55</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">101</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="FilterExamples2" datatype="html">
@@ -1351,15 +1455,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">102</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Filter" datatype="html">
@@ -1371,15 +1475,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">58</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Operator" datatype="html">
@@ -1399,15 +1503,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">47</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">93</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DataMode" datatype="html">
@@ -1419,15 +1523,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">94</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DV" datatype="html">
@@ -1439,23 +1543,27 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">49</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">95</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="On" datatype="html">
-        <source> on</source>
-        <target>on</target>
+        <source> on</source>
+        <target> on </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Copy" datatype="html">
@@ -1474,12 +1582,108 @@
           <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="ActivationCallsign" datatype="html">
+        <source>Activation Callsign</source>
+        <target state="new">Activation Callsign</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ActivationCallsignIsRequired" datatype="html">
+        <source>
+        Activation Callsign is required
+      </source>
+        <target state="new">
+        Activation Callsign is required
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SummitRef" datatype="html">
+        <source>Summit Ref</source>
+        <target state="new">Summit Ref</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AssociationCode" datatype="html">
+        <source>Association Code</source>
+        <target state="new">Association Code</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SummitCode" datatype="html">
+        <source>Summit Code</source>
+        <target state="new">Summit Code</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Frequency" datatype="html">
+        <source>Frequency</source>
+        <target state="new">Frequency</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Mode" datatype="html">
+        <source>Mode</source>
+        <target state="new">Mode</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ModeRequired" datatype="html">
+        <source>
+        Mode is required
+      </source>
+        <target state="new">
+        Mode is required
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SaveSpot" datatype="html">
+        <source>Save Spot</source>
+        <target state="new">Save Spot</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AddSpot" datatype="html">
+        <source>Add Spot</source>
+        <target state="new">Add Spot</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="BandsFilter" datatype="html">
         <source>Bands Filter</source>
         <target state="new">バンドフィルター</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="AllBands" datatype="html">
@@ -1491,11 +1695,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="HF" datatype="html">
@@ -1507,15 +1707,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">87</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="VHF" datatype="html">
@@ -1527,15 +1727,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">88</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="AllModes" datatype="html">
@@ -1547,15 +1747,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">45</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">91</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="AM" datatype="html">
@@ -1567,15 +1767,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">92</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
     </body>
