@@ -963,7 +963,7 @@
       </trans-unit>
       <trans-unit id="AlertsShowing" datatype="html">
         <source>Showing <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>filtered <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>alerts.</source>
-        <target state="new"> <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/>の<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>フィルター<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>されたアラートを表示</target>
+        <target state="new"> <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/>の<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>アラート</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">5</context>
