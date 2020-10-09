@@ -1726,7 +1726,7 @@
       </trans-unit>
       <trans-unit id="ShowingLastNumberSpots" datatype="html">
         <source>Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</source>
-        <target state="new">Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</target>
+        <target state="new">最新 <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>時間の <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>のスポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1734,7 +1734,7 @@
       </trans-unit>
       <trans-unit id="AddSpot" datatype="html">
         <source>Add SOTA Spot</source>
-        <target state="new">Add Spot</target>
+        <target state="new">新規追加SOTAスポット</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">2</context>
