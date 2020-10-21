@@ -40,7 +40,7 @@
       </trans-unit>
       <trans-unit id="ngb.datepicker.next-month" datatype="html">
         <source>Next month</source>
-        <target state="new">다음 달</target>
+        <target state="new">Next month</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
           <context context-type="linenumber">26</context>
@@ -108,7 +108,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.first-aria" datatype="html">
         <source>First</source>
-        <target state="new">먼저</target>
+        <target state="new">처음으로</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">14</context>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.next-aria" datatype="html">
         <source>Next</source>
-        <target state="new">다음</target>
+        <target state="new">다음으로</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">44</context>
@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.last-aria" datatype="html">
         <source>Last</source>
-        <target state="new">마지막</target>
+        <target state="new">마지막으로</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">53</context>
@@ -148,7 +148,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
         <source>Increment hours</source>
-        <target state="new">시간 증가</target>
+        <target state="new">시간단위 늘림</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">9</context>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.hours" datatype="html">
         <source>Hours</source>
-        <target state="new">시간</target>
+        <target state="new">시</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">15</context>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
         <source>Decrement hours</source>
-        <target state="new">시간 감소</target>
+        <target state="new">시간단위 줄임</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">23</context>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
         <source>Increment minutes</source>
-        <target state="new">분 증가</target>
+        <target state="new">분단위 늘림</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">32</context>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
         <source>Decrement minutes</source>
-        <target state="new">분 감소</target>
+        <target state="new">분단위 줄임</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">45</context>
@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
         <source>Increment seconds</source>
-        <target state="new">초 증가</target>
+        <target state="new">초단위 늘림</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">54</context>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
         <source>Decrement seconds</source>
-        <target state="new">초 감소</target>
+        <target state="new">초단위 줄임</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">67</context>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="ngb.toast.close-aria" datatype="html">
         <source>Close</source>
-        <target state="new">가까이</target>
+        <target state="new">닫기</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts</context>
           <context context-type="linenumber">8</context>
@@ -271,8 +271,8 @@
       <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Questions or comments about this site should be directed to the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>webmaster<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Participation in SOTA is at your own risk.
       See our <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>Acceptable Use Policy.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </source>
-        <target state="new">© 2002-2020 Summits on the Air. Summits on the Air, SOTA and the SOTA 로고는 이 프로그램의 등록상표입니다.
-      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>이 사이트에 대한 질문이나 의견은 다음 주소로 보내 주십시오.<x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>웹마스터<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>SOTA 참여는 당신 자신의 책임입니다. 저희를 보세요.<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>허용 가능한 사용 정책입니다.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+        <target state="new">© 2002-2020 Summits on the Air. Summits on the Air 표지, SOTA 표기와 SOTA 로고는 이프로그램의 등록상표로 무단 전용을 금지합니다.
+      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>이 사이트에 관한 질문이나 의견은 <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>웹마스터<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>앞으로 부탁합니다. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>SOTA 프로그램은 각자 책임 하에 참여하시기 바랍니다.<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>사용허락조건<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
@@ -282,7 +282,7 @@
       </trans-unit>
       <trans-unit id="EditAlert" datatype="html">
         <source>Edit</source>
-        <target state="new">Edit</target>
+        <target state="new">편집</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">4</context>
@@ -298,7 +298,7 @@
       </trans-unit>
       <trans-unit id="AddNew" datatype="html">
         <source>Add New</source>
-        <target state="new">새로 추가</target>
+        <target state="new">신규추가</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">4</context>
@@ -322,7 +322,7 @@
       </trans-unit>
       <trans-unit id="UpdateAccount" datatype="html">
         <source>Update Account</source>
-        <target state="new">계정 업데이트</target>
+        <target state="new">계정 편집</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">53</context>
@@ -330,7 +330,7 @@
       </trans-unit>
       <trans-unit id="All" datatype="html">
         <source>All</source>
-        <target state="final">모두</target>
+        <target state="final">모든</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">22</context>
@@ -446,7 +446,7 @@
       </trans-unit>
       <trans-unit id="Summit" datatype="html">
         <source>Summit</source>
-        <target> 산정상 </target>
+        <target>산정상</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">45</context>
@@ -454,7 +454,7 @@
       </trans-unit>
       <trans-unit id="Callsign" datatype="html">
         <source>Callsign</source>
-        <target> 콜사인 </target>
+        <target>콜사인</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">13</context>
@@ -465,7 +465,7 @@
           Callsign is required
         </source>
         <target state="new">
-          Callsign이 필요함
+          콜사인 필요
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -474,7 +474,7 @@
       </trans-unit>
       <trans-unit id="FullSummitRef" datatype="html">
         <source>Full summit reference</source>
-        <target state="new">전체 산정상 참조번호</target>
+        <target state="new">연합 및 산정상 코드</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">21</context>
@@ -485,7 +485,7 @@
           Valid Association code is required
         </source>
         <target state="new">
-          올바른 연결 코드 필요함
+          유효한 연합코드 입력
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -493,7 +493,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ValidSummitCodeRequired" datatype="html">
@@ -501,7 +501,7 @@
           Valid summit code is required (XX-YYY)
         </source>
         <target state="new">
-          올바른 연결 코드 필요함 (XX-YYY)
+          유효한 산정상코드 입력 (XX-YYY)
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -509,19 +509,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SummitRefHelp" datatype="html">
         <source>(e.g. GM/WS-001)</source>
-        <target state="new">(예문 HL/BS-001)</target>
+        <target state="new">(예시 HL/BS-001)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">38</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Cancel" datatype="html">
@@ -538,7 +538,7 @@
       </trans-unit>
       <trans-unit id="Title" datatype="html">
         <source>SPOTS</source>
-        <target state="new">지점</target>
+        <target state="new">스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">6</context>
@@ -546,7 +546,7 @@
       </trans-unit>
       <trans-unit id="Alerts" datatype="html">
         <source>ALERTS</source>
-        <target state="new">알림</target>
+        <target state="new">미리 알림</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">11</context>
@@ -554,7 +554,7 @@
       </trans-unit>
       <trans-unit id="SpotsSettings" datatype="html">
         <source>Spots settings</source>
-        <target state="new">지점 설정</target>
+        <target state="new">스팟 설정</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">9</context>
@@ -562,7 +562,7 @@
       </trans-unit>
       <trans-unit id="Latest10" datatype="html">
         <source>latest 10 spots</source>
-        <target state="new">마지막 10개 지점</target>
+        <target state="new">최신 10개의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">60</context>
@@ -574,7 +574,7 @@
       </trans-unit>
       <trans-unit id="Latest20" datatype="html">
         <source>latest 20 spots</source>
-        <target state="new">마지막 20개 지점</target>
+        <target state="new">최신 20개의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">61</context>
@@ -586,7 +586,7 @@
       </trans-unit>
       <trans-unit id="Latest50" datatype="html">
         <source>latest 50 spots</source>
-        <target state="new">마지막 50개 지점</target>
+        <target state="new">최신 50개의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">62</context>
@@ -598,7 +598,7 @@
       </trans-unit>
       <trans-unit id="Latest200" datatype="html">
         <source>latest 200 spots</source>
-        <target state="new">마지막 200개 지점</target>
+        <target state="new">최신 200개의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">63</context>
@@ -610,7 +610,7 @@
       </trans-unit>
       <trans-unit id="SpotsHour" datatype="html">
         <source>spots in last hour</source>
-        <target state="new">지난 한시간 지점</target>
+        <target state="new">최근 1시간의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">64</context>
@@ -622,7 +622,7 @@
       </trans-unit>
       <trans-unit id="SpotsDay" datatype="html">
         <source>spots in last 24 hours</source>
-        <target state="new">지난 24시간 지점</target>
+        <target state="new">최근 24시간의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">65</context>
@@ -634,7 +634,7 @@
       </trans-unit>
       <trans-unit id="Spots3" datatype="html">
         <source>spots in last 3 days</source>
-        <target state="new">지난 3일간 지점</target>
+        <target state="new">최근 3일간의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">66</context>
@@ -646,7 +646,7 @@
       </trans-unit>
       <trans-unit id="SpotsWeek" datatype="html">
         <source>spots in last week</source>
-        <target state="new">지난 한주간 지점</target>
+        <target state="new">최근 1주간의 스팟</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">67</context>
@@ -661,7 +661,8 @@
       Show expanded spots
       </source>
         <target state="new">
-      지점확장보기</target>
+      모든 스팟 정보를 전개
+      </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">71</context>
@@ -669,7 +670,7 @@
       </trans-unit>
       <trans-unit id="DefaultComment" datatype="html">
         <source>Default comment</source>
-        <target state="new">기본 주석</target>
+        <target state="new">초기설정 주석</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">78</context>
@@ -681,7 +682,7 @@
       </trans-unit>
       <trans-unit id="AlertsSettings" datatype="html">
         <source>Alerts settings</source>
-        <target state="new">알림 설정</target>
+        <target state="new">미리알림 설정</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">83</context>
@@ -689,7 +690,7 @@
       </trans-unit>
       <trans-unit id="AlertLag" datatype="html">
         <source>Amount of prior alerts to show</source>
-        <target state="new">Amount of prior alerts to show</target>
+        <target state="new">표시할 미리알림의 양</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">108</context>
@@ -697,7 +698,7 @@
       </trans-unit>
       <trans-unit id="Hours1" datatype="html">
         <source>1 Hour</source>
-        <target state="new">1 Hour</target>
+        <target state="new">1 시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">111</context>
@@ -705,7 +706,7 @@
       </trans-unit>
       <trans-unit id="Hours2" datatype="html">
         <source>2 Hours</source>
-        <target state="new">2 Hours</target>
+        <target state="new">2 시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">112</context>
@@ -713,7 +714,7 @@
       </trans-unit>
       <trans-unit id="Hours6" datatype="html">
         <source>6 Hours</source>
-        <target state="new">6 Hours</target>
+        <target state="new">6 시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">113</context>
@@ -721,7 +722,7 @@
       </trans-unit>
       <trans-unit id="Hours12" datatype="html">
         <source>12 Hours</source>
-        <target state="new">12 Hours</target>
+        <target state="new">12 시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">114</context>
@@ -729,7 +730,7 @@
       </trans-unit>
       <trans-unit id="Hours24" datatype="html">
         <source>24 Hours</source>
-        <target state="new">24 Hours</target>
+        <target state="new">24 시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">115</context>
@@ -745,7 +746,7 @@
       </trans-unit>
       <trans-unit id="Normal" datatype="html">
         <source>Normal</source>
-        <target state="new">보통의</target>
+        <target state="new">일반 모드</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">132</context>
@@ -753,7 +754,7 @@
       </trans-unit>
       <trans-unit id="DarkTheme" datatype="html">
         <source>Dark</source>
-        <target state="new">짙은</target>
+        <target state="new">반전 모드</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">133</context>
@@ -761,7 +762,7 @@
       </trans-unit>
       <trans-unit id="FlatTheme" datatype="html">
         <source>Flat</source>
-        <target state="new">납작한</target>
+        <target state="new">납작 모드</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">134</context>
@@ -769,7 +770,7 @@
       </trans-unit>
       <trans-unit id="AudioAlertOnNewSpots" datatype="html">
         <source>Audio alert on new spots: </source>
-        <target state="new">새지점 소리알림 </target>
+        <target state="new">새로운 스팟정보를 목소리로 알림:?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">139</context>
@@ -785,7 +786,7 @@
       </trans-unit>
       <trans-unit id="BritFemale" datatype="html">
         <source>British Female</source>
-        <target state="new">영국영어 여성</target>
+        <target state="new">영국어 여성</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">143</context>
@@ -793,7 +794,7 @@
       </trans-unit>
       <trans-unit id="BritMale" datatype="html">
         <source>British Male</source>
-        <target state="new">영국영어 남성</target>
+        <target state="new">영국어 남성</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">144</context>
@@ -801,7 +802,7 @@
       </trans-unit>
       <trans-unit id="USFemale" datatype="html">
         <source>American Female</source>
-        <target state="new">미국영어 여성</target>
+        <target state="new">미국어 여성</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">145</context>
@@ -809,7 +810,7 @@
       </trans-unit>
       <trans-unit id="USMale" datatype="html">
         <source>American Male</source>
-        <target state="new">미국영어 남성</target>
+        <target state="new">미국어 남성</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">146</context>
@@ -833,7 +834,7 @@
       </trans-unit>
       <trans-unit id="JPFemale" datatype="html">
         <source>日本語女性</source>
-        <target state="new">일본어 여성</target>
+        <target state="new">日本語女性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">149</context>
@@ -841,7 +842,7 @@
       </trans-unit>
       <trans-unit id="JPMale" datatype="html">
         <source>日本語男性</source>
-        <target state="new">일본어 남성</target>
+        <target state="new">日本語男性</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">150</context>
@@ -865,7 +866,7 @@
       </trans-unit>
       <trans-unit id="Centred" datatype="html">
         <source>Centred</source>
-        <target state="new">가운데</target>
+        <target state="new">가운데 정렬</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">166</context>
@@ -881,7 +882,7 @@
       </trans-unit>
       <trans-unit id="TimeLocal" datatype="html">
         <source>local</source>
-        <target state="new">지역</target>
+        <target state="new">한국시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">10</context>
@@ -897,7 +898,7 @@
       </trans-unit>
       <trans-unit id="SOTASummitsSite" datatype="html">
         <source>SOTA Summits Site</source>
-        <target state="new">SOTA 산정상 싸이트</target>
+        <target state="new">SOTA Summits Site</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">28</context>
@@ -921,7 +922,7 @@
       </trans-unit>
       <trans-unit id="Reflector" datatype="html">
         <source>Reflector</source>
-        <target state="new">리플렉트</target>
+        <target state="new">리플랙터</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">32</context>
@@ -934,6 +935,10 @@
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="SOTAShop" datatype="html">
+        <source>SOTA Shop</source>
+        <target state="new">SOTA Shop</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">34</context>
@@ -941,7 +946,7 @@
       </trans-unit>
       <trans-unit id="Mapping" datatype="html">
         <source>Mapping</source>
-        <target state="new">지도작성</target>
+        <target state="new">SOTA 지도</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">35</context>
@@ -949,7 +954,7 @@
       </trans-unit>
       <trans-unit id="Videos" datatype="html">
         <source>Videos</source>
-        <target state="new">비디오</target>
+        <target state="new">SOTA 동영상</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">36</context>
@@ -957,7 +962,7 @@
       </trans-unit>
       <trans-unit id="Photos" datatype="html">
         <source>Photos</source>
-        <target state="new">사진</target>
+        <target state="new">Flickr 사진그룹</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">37</context>
@@ -973,7 +978,7 @@
       </trans-unit>
       <trans-unit id="FAQs" datatype="html">
         <source>FAQs</source>
-        <target state="new">질의응답</target>
+        <target state="new">자주하는 질문들</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">39</context>
@@ -981,7 +986,7 @@
       </trans-unit>
       <trans-unit id="ContactSOTA" datatype="html">
         <source>Contact SOTA</source>
-        <target state="new">SOTA에 문의</target>
+        <target state="new">SOTA 연락</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">40</context>
@@ -1000,7 +1005,8 @@
           Date of activation is required
         </source>
         <target state="new">
-          활성화 날짜 필요함</target>
+          활성화 날짜 입력
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">52</context>
@@ -1008,7 +1014,7 @@
       </trans-unit>
       <trans-unit id="ETA" datatype="html">
         <source>ETA</source>
-        <target state="new">ETA</target>
+        <target state="new">예정시간</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">57</context>
@@ -1016,7 +1022,7 @@
       </trans-unit>
       <trans-unit id="ETAHelp" datatype="html">
         <source>(e.g. 1215) MUST BE UTC</source>
-        <target state="new">(예제 1215) 세계표준시여야 함</target>
+        <target state="new">UTC 시간을 입력(예 1215)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">59</context>
@@ -1024,7 +1030,7 @@
       </trans-unit>
       <trans-unit id="ETARequired" datatype="html">
         <source>ETA is required (in hhmm format)</source>
-        <target state="new">ETA가 필요함(hhmm 형식)</target>
+        <target state="new">예정시간이 필요(hhmm 형식)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">61</context>
@@ -1032,7 +1038,7 @@
       </trans-unit>
       <trans-unit id="FreqMode" datatype="html">
         <source>Frequency-Mode(s)</source>
-        <target state="new">주파수-모드(s)</target>
+        <target state="new">운용주파수와 모드</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">66</context>
@@ -1040,7 +1046,7 @@
       </trans-unit>
       <trans-unit id="FreqModeHelp" datatype="html">
         <source>Format: [Freq-mode, freq2-mode2, ...] max 40 characters.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>(e.g. 7.030-cw, 14.250-ssb). Mode should be: am, cw, data, dv, fm, ssb or other. </source>
-        <target state="new">형식: [주파수-모드, 주파수2-모드2, ...] 최대 40자.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>(예제 7.030-cw, 14.250-ssb). 모드는 다음과 같아야 함: am, cw, data, dv, fm, ssb or other. </target>
+        <target state="new">입력형식: [주파수-모드, 주파수2-모드2, ...] 최대 반각 40문자.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>(예 7.030-cw, 14.250-ssb). 운용 모드는 : am, cw, data, dv, fm, ssb or other 를 사용. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">68</context>
@@ -1051,7 +1057,7 @@
         Frequency is required
       </source>
         <target state="new">
-        주파수가 필요함
+        주파수를 입력해주세요
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -1059,7 +1065,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Comments" datatype="html">
@@ -1071,7 +1077,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
@@ -1080,7 +1086,7 @@
       </trans-unit>
       <trans-unit id="CommentsHelp" datatype="html">
         <source>(Mention report, condx, etc. max 60 characters)</source>
-        <target state="new">(언급, 주석 등. 최대 60자)</target>
+        <target state="new">(RST 리포트 및 컨디션, 기타 정보 입력, 최대 반각 60자)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">76</context>
@@ -1095,7 +1101,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
@@ -1104,19 +1110,19 @@
       </trans-unit>
       <trans-unit id="Close" datatype="html">
         <source>Close</source>
-        <target state="new">가까운</target>
+        <target state="new">닫기</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SaveAlert" datatype="html">
         <source>Save Alert</source>
-        <target state="new">Save Alert</target>
+        <target state="new">알림 저장</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">88</context>
@@ -1124,7 +1130,7 @@
       </trans-unit>
       <trans-unit id="AlertsShowing" datatype="html">
         <source>Showing <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>filtered <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>alerts.</source>
-        <target state="new">보여줍니다 <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>필터된 <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>알림.</target>
+        <target state="new"><x id="INTERPOLATION" equiv-text="{{alertsCount}}"/>의 <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>필터<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>된 미리알림 표시</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">5</context>
@@ -1132,7 +1138,7 @@
       </trans-unit>
       <trans-unit id="Hide" datatype="html">
         <source>Hide </source>
-        <target state="new">감추기 </target>
+        <target state="new">숨김 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">8</context>
@@ -1208,7 +1214,7 @@
       </trans-unit>
       <trans-unit id="DeleteAreYouSure" datatype="html">
         <source>Do you want to delete this alert?</source>
-        <target state="new">이 알림을 삭제하시겠습니까?</target>
+        <target state="new">이 알림을 삭제하기겠습니까?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">91</context>
@@ -1396,7 +1402,7 @@
       </trans-unit>
       <trans-unit id="Microwave" datatype="html">
         <source>Microwave</source>
-        <target state="new">극초단파</target>
+        <target state="new">마이크로파</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">41</context>
@@ -1408,7 +1414,7 @@
       </trans-unit>
       <trans-unit id="ToggleExpandedSpots" datatype="html">
         <source>Toggle Expanded Spots</source>
-        <target state="new">확장 지점 전환</target>
+        <target state="new">스팟정보 전체 전개</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">80</context>
@@ -1416,7 +1422,7 @@
       </trans-unit>
       <trans-unit id="SpottedOn" datatype="html">
         <source> spotted on </source>
-        <target state="new"> 지점 켜기 </target>
+        <target state="new"> 스팟개시 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">86</context>
@@ -1424,7 +1430,7 @@
       </trans-unit>
       <trans-unit id="SpottedTime" datatype="html">
         <source> at </source>
-        <target state="new"> 장소 </target>
+        <target state="new"> 시간 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">86</context>
@@ -1432,7 +1438,7 @@
       </trans-unit>
       <trans-unit id="LogSpot" datatype="html">
         <source>Log Spot</source>
-        <target state="new">지점기록</target>
+        <target state="new">스팟 로그</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">115</context>
@@ -1440,7 +1446,7 @@
       </trans-unit>
       <trans-unit id="EditSpot" datatype="html">
         <source>Edit SOTA Spot</source>
-        <target state="new">지점 편집</target>
+        <target state="new">스팟정보 편집</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">2</context>
@@ -1450,123 +1456,9 @@
           <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="AddSpot" datatype="html">
-        <source>Add SOTA Spot</source>
-        <target state="new">Add SOTA Spot</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ActivationCallsign" datatype="html">
-        <source>Activation Callsign</source>
-        <target state="new">Activation Callsign</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ActivationCallsignIsRequired" datatype="html">
-        <source>
-        Activation Callsign is required
-      </source>
-        <target state="new">
-        Activation Callsign is required
-      </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="SummitRef" datatype="html">
-        <source>Summit Ref</source>
-        <target state="new">Summit Ref</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">17</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="AssociationCode" datatype="html">
-        <source>Association Code</source>
-        <target state="new">Association Code</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="SummitCode" datatype="html">
-        <source>Summit Code</source>
-        <target state="new">Summit Code</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Frequency" datatype="html">
-        <source>Frequency</source>
-        <target state="new">Frequency</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Mode" datatype="html">
-        <source>Mode</source>
-        <target state="new">Mode</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ModeRequired" datatype="html">
-        <source>
-        Mode is required
-      </source>
-        <target state="new">
-        Mode is required
-      </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="SaveSpot" datatype="html">
-        <source>Save Spot</source>
-        <target state="new">Save Spot</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ShowingLatestSpots" datatype="html">
-        <source>
-        Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</source>
-        <target state="new">
-        Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ShowingLastNumberSpots" datatype="html">
-        <source>Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</source>
-        <target state="new">Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/spots/spots.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="RepostSpot" datatype="html">
         <source>Repost Spot</source>
-        <target state="new">지점 재게시</target>
+        <target state="new">스팟 다시 게시</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">118</context>
@@ -1574,7 +1466,7 @@
       </trans-unit>
       <trans-unit id="DeleteSpot" datatype="html">
         <source>Delete Spot</source>
-        <target state="new">지점 삭제</target>
+        <target state="new">스팟 삭제</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">119</context>
@@ -1582,7 +1474,7 @@
       </trans-unit>
       <trans-unit id="By" datatype="html">
         <source>by</source>
-        <target state="new">의해</target>
+        <target state="new">운용자</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">124</context>
@@ -1590,7 +1482,7 @@
       </trans-unit>
       <trans-unit id="DeleteSpotAreYouSure" datatype="html">
         <source>Do you want to delete this spot?</source>
-        <target state="new">이 지점을 삭제하시겠습니까?</target>
+        <target state="new">이 스팟을 삭제하시겠습니까?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">147</context>
@@ -1598,7 +1490,7 @@
       </trans-unit>
       <trans-unit id="ByAuthor" datatype="html">
         <source> by </source>
-        <target state="new"> 의해 </target>
+        <target state="new"> 게시자 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/reflector-posts/reflector-posts.component.html</context>
           <context context-type="linenumber">16</context>
@@ -1611,8 +1503,7 @@
       <trans-unit id="MoreTopics" datatype="html">
         <source>More
     topics...</source>
-        <target state="new">더 많은 
-    주제들..</target>
+        <target state="new">기타 정보...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/reflector-posts/reflector-posts.component.html</context>
           <context context-type="linenumber">22</context>
@@ -1664,7 +1555,7 @@
       </trans-unit>
       <trans-unit id="OtherMode" datatype="html">
         <source>Other</source>
-        <target state="new">다른</target>
+        <target state="new">다른모드</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">28</context>
@@ -1684,7 +1575,7 @@
       </trans-unit>
       <trans-unit id="FilterExamples" datatype="html">
         <source>Filter examples:</source>
-        <target state="new">필터 예:</target>
+        <target state="new">필터 예시:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">31</context>
@@ -1744,7 +1635,7 @@
       </trans-unit>
       <trans-unit id="Operator" datatype="html">
         <source>Operator</source>
-        <target state="new">운영자</target>
+        <target state="new">운용자</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">43</context>
@@ -1772,7 +1663,7 @@
       </trans-unit>
       <trans-unit id="DataMode" datatype="html">
         <source>Data</source>
-        <target state="new">데이터</target>
+        <target state="new">Data</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">24</context>
@@ -1791,8 +1682,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="On" datatype="html">
-        <source> on </source>
-        <target state="translated"> on </target>
+        <source> on</source>
+        <target state="translated">on</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">60</context>
@@ -1818,9 +1709,139 @@
           <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="ActivationCallsign" datatype="html">
+        <source>Activation Callsign</source>
+        <target state="new">활성화 콜사인</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ActivationCallsignIsRequired" datatype="html">
+        <source>
+        Activation Callsign is required
+      </source>
+        <target state="new">
+        활성화 콜사인이 필요
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SummitRef" datatype="html">
+        <source>Summit Ref</source>
+        <target state="new">산정상 참조번호</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AssociationCode" datatype="html">
+        <source>Association Code</source>
+        <target state="new">연합 코드</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SummitCode" datatype="html">
+        <source>Summit Code</source>
+        <target state="new">산정상 코드</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Frequency" datatype="html">
+        <source>Frequency</source>
+        <target state="new">주파수</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Mode" datatype="html">
+        <source>Mode</source>
+        <target state="new">모드</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ModeRequired" datatype="html">
+        <source>
+        Mode is required
+      </source>
+        <target state="new">
+        모드를 입력하세요
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SaveSpot" datatype="html">
+        <source>Save Spot</source>
+        <target state="new">스팟 저장</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ShowingLatestSpots" datatype="html">
+        <source>
+        Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</source>
+        <target state="new">
+        Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ShowingLastNumberSpots" datatype="html">
+        <source>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</source>
+        <target>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0ac29b4a5ba7831405b64f24a400ea4793794c4" datatype="html">
+        <source>{VAR_SELECT, select, all {} other {<x id="INTERPOLATION" equiv-text="{{ mode }}"/>} }</source>
+        <target state="new">{VAR_SELECT, select, all {} other {<x id="INTERPOLATION" equiv-text="{{ mode }}"/>} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="785d85f62181ae74b69e8fa19dadafac0b37eae0" datatype="html">
+        <source>{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</source>
+        <target state="new">{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AddSpot" datatype="html">
+        <source>Add SOTA Spot</source>
+        <target state="new">스팟 추가</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="BandsFilter" datatype="html">
         <source>Bands Filter</source>
-        <target state="new">밴드필터</target>
+        <target state="new">주파수밴드 필터</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">12</context>

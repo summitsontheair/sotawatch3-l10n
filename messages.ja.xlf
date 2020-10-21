@@ -374,7 +374,7 @@
           Callsign is required
         </source>
         <target state="new">
-          コールサインとしてください
+          コールサインを入力
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -402,7 +402,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ValidSummitCodeRequired" datatype="html">
@@ -418,7 +418,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SummitRefHelp" datatype="html">
@@ -430,7 +430,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Cancel" datatype="html">
@@ -599,7 +599,7 @@
       </trans-unit>
       <trans-unit id="AlertLag" datatype="html">
         <source>Amount of prior alerts to show</source>
-        <target state="new">Amount of prior alerts to show</target>
+        <target state="new">過去のアラートの表示期間</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">108</context>
@@ -607,7 +607,7 @@
       </trans-unit>
       <trans-unit id="Hours1" datatype="html">
         <source>1 Hour</source>
-        <target state="new">1 Hour</target>
+        <target state="new">1時間</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">111</context>
@@ -615,7 +615,7 @@
       </trans-unit>
       <trans-unit id="Hours2" datatype="html">
         <source>2 Hours</source>
-        <target state="new">2 Hours</target>
+        <target state="new">2時間</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">112</context>
@@ -623,7 +623,7 @@
       </trans-unit>
       <trans-unit id="Hours6" datatype="html">
         <source>6 Hours</source>
-        <target state="new">6 Hours</target>
+        <target state="new">6時間</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">113</context>
@@ -631,7 +631,7 @@
       </trans-unit>
       <trans-unit id="Hours12" datatype="html">
         <source>12 Hours</source>
-        <target state="new">12 Hours</target>
+        <target state="new">12時間</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">114</context>
@@ -639,7 +639,7 @@
       </trans-unit>
       <trans-unit id="Hours24" datatype="html">
         <source>24 Hours</source>
-        <target state="new">24 Hours</target>
+        <target state="new">24時間</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">115</context>
@@ -679,7 +679,7 @@
       </trans-unit>
       <trans-unit id="AudioAlertOnNewSpots" datatype="html">
         <source>Audio alert on new spots: </source>
-        <target state="new">新しいスポット情報を通知:?</target>
+        <target state="new">新しいスポットの音声通知:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">139</context>
@@ -783,7 +783,7 @@
       </trans-unit>
       <trans-unit id="Submit" datatype="html">
         <source>Submit</source>
-        <target>提出</target>
+        <target>設定</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">171</context>
@@ -844,6 +844,10 @@
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="SOTAShop" datatype="html">
+        <source>SOTA Shop</source>
+        <target state="new">SOTA Shop</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">34</context>
@@ -962,7 +966,7 @@
         Frequency is required
       </source>
         <target state="new">
-        周波数を入力してください
+        周波数を入力
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -970,7 +974,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Comments" datatype="html">
@@ -982,7 +986,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
@@ -1006,7 +1010,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
@@ -1022,12 +1026,12 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SaveAlert" datatype="html">
         <source>Save Alert</source>
-        <target state="new">Save Alert</target>
+        <target state="new">アラート保存</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">88</context>
@@ -1636,7 +1640,7 @@
       </trans-unit>
       <trans-unit id="ActivationCallsign" datatype="html">
         <source>Activation Callsign</source>
-        <target state="new">Activation Callsign</target>
+        <target state="new">コールサイン</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1647,7 +1651,7 @@
         Activation Callsign is required
       </source>
         <target state="new">
-        Activation Callsign is required
+        コールサインを入力
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
@@ -1656,7 +1660,7 @@
       </trans-unit>
       <trans-unit id="SummitRef" datatype="html">
         <source>Summit Ref</source>
-        <target state="new">Summit Ref</target>
+        <target state="new">支部コードと山岳ID</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">17</context>
@@ -1664,7 +1668,7 @@
       </trans-unit>
       <trans-unit id="AssociationCode" datatype="html">
         <source>Association Code</source>
-        <target state="new">Association Code</target>
+        <target state="new">支部コード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">19</context>
@@ -1672,7 +1676,7 @@
       </trans-unit>
       <trans-unit id="SummitCode" datatype="html">
         <source>Summit Code</source>
-        <target state="new">Summit Code</target>
+        <target state="new">山岳ID</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">25</context>
@@ -1680,18 +1684,18 @@
       </trans-unit>
       <trans-unit id="Frequency" datatype="html">
         <source>Frequency</source>
-        <target state="new">Frequency</target>
+        <target state="new">周波数</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Mode" datatype="html">
         <source>Mode</source>
-        <target state="new">Mode</target>
+        <target state="new">モード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ModeRequired" datatype="html">
@@ -1699,19 +1703,19 @@
         Mode is required
       </source>
         <target state="new">
-        Mode is required
+        モードを入力
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SaveSpot" datatype="html">
         <source>Save Spot</source>
-        <target state="new">Save Spot</target>
+        <target state="new">スポット保存</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ShowingLatestSpots" datatype="html">
@@ -1725,8 +1729,24 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ShowingLastNumberSpots" datatype="html">
-        <source>Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</source>
-        <target state="new">最新 <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>時間の <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>のスポット</target>
+        <source>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</source>
+        <target>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0ac29b4a5ba7831405b64f24a400ea4793794c4" datatype="html">
+        <source>{VAR_SELECT, select, all {} other {<x id="INTERPOLATION" equiv-text="{{ mode }}"/>} }</source>
+        <target state="new">{VAR_SELECT, select, all {} other {<x id="INTERPOLATION" equiv-text="{{ mode }}"/>} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="785d85f62181ae74b69e8fa19dadafac0b37eae0" datatype="html">
+        <source>{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</source>
+        <target state="new">{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1741,7 +1761,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">77</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>

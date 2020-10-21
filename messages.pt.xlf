@@ -494,7 +494,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ValidSummitCodeRequired" datatype="html">
@@ -510,7 +510,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SummitRefHelp" datatype="html">
@@ -522,7 +522,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Cancel" datatype="html">
@@ -936,6 +936,10 @@
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="SOTAShop" datatype="html">
+        <source>SOTA Shop</source>
+        <target state="new">SOTA Shop</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">34</context>
@@ -1062,7 +1066,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Comments" datatype="html">
@@ -1074,7 +1078,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
@@ -1098,7 +1102,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
@@ -1114,7 +1118,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SaveAlert" datatype="html">
@@ -1756,7 +1760,7 @@
         <target state="new">Frequency</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Mode" datatype="html">
@@ -1764,7 +1768,7 @@
         <target state="new">Mode</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ModeRequired" datatype="html">
@@ -1776,7 +1780,7 @@
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SaveSpot" datatype="html">
@@ -1784,7 +1788,7 @@
         <target state="new">Save Spot</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ShowingLatestSpots" datatype="html">
@@ -1798,8 +1802,24 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ShowingLastNumberSpots" datatype="html">
-        <source>Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</source>
-        <target state="new">Showing <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots in last <x id="INTERPOLATION_1" equiv-text="{{ 0 - pageSize }}"/> hr<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>s<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>.</target>
+        <source>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</source>
+        <target>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0ac29b4a5ba7831405b64f24a400ea4793794c4" datatype="html">
+        <source>{VAR_SELECT, select, all {} other {<x id="INTERPOLATION" equiv-text="{{ mode }}"/>} }</source>
+        <target state="new">{VAR_SELECT, select, all {} other {<x id="INTERPOLATION" equiv-text="{{ mode }}"/>} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/spots/spots.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="785d85f62181ae74b69e8fa19dadafac0b37eae0" datatype="html">
+        <source>{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</source>
+        <target state="new">{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1814,7 +1834,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">77</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
