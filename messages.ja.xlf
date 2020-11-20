@@ -76,7 +76,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.first" datatype="html">
         <source>««</source>
-        <target state="new">≪≪</target>
+        <target state="new">««</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">2</context>
@@ -84,7 +84,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
         <source>«</source>
-        <target state="new">≪</target>
+        <target state="new">«</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">3</context>
@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.next" datatype="html">
         <source>»</source>
-        <target state="new">≫</target>
+        <target state="new">»</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">4</context>
@@ -100,7 +100,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.last" datatype="html">
         <source>»»</source>
-        <target state="new">≫≫</target>
+        <target state="new">»»</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">5</context>
@@ -283,7 +283,7 @@
       </trans-unit>
       <trans-unit id="EditAlert" datatype="html">
         <source>Edit</source>
-        <target state="new">Edit</target>
+        <target state="new">編集</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">4</context>
@@ -847,7 +847,7 @@
       </trans-unit>
       <trans-unit id="SOTAShop" datatype="html">
         <source>SOTA Shop</source>
-        <target state="new">SOTA Shop</target>
+        <target state="new">SOTAショップ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">34</context>
@@ -1039,7 +1039,7 @@
       </trans-unit>
       <trans-unit id="AlertsShowing" datatype="html">
         <source>Showing <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>filtered <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>alerts.</source>
-        <target state="new"> <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/>の<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>アラート</target>
+        <target state="new"> <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/>の<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>アラートを表示</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">5</context>
@@ -1722,7 +1722,7 @@
         <source>
         Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</source>
         <target state="new">
-        Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</target>
+        最新 <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>スポットを表示</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">8</context>
@@ -1730,7 +1730,7 @@
       </trans-unit>
       <trans-unit id="ShowingLastNumberSpots" datatype="html">
         <source>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</source>
-        <target>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</target>
+        <target>最新 <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/> の <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> スポットを表示</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1754,7 +1754,7 @@
       </trans-unit>
       <trans-unit id="AddSpot" datatype="html">
         <source>Add SOTA Spot</source>
-        <target state="new">新規追加SOTAスポット</target>
+        <target state="new">スポット追加</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">2</context>
