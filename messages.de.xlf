@@ -108,7 +108,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.first-aria" datatype="html">
         <source>First</source>
-        <target state="new">First</target>
+        <target state="new">zum Anfang</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">14</context>
@@ -116,7 +116,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.previous-aria" datatype="html">
         <source>Previous</source>
-        <target state="new">Previous</target>
+        <target state="new">zurück</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">24</context>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.next-aria" datatype="html">
         <source>Next</source>
-        <target state="new">Next</target>
+        <target state="new">weiter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">44</context>
@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.last-aria" datatype="html">
         <source>Last</source>
-        <target state="new">Last</target>
+        <target state="new">zum Ende</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">53</context>
@@ -148,7 +148,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
         <source>Increment hours</source>
-        <target state="new">Increment hours</target>
+        <target state="new">Stunde weiter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">9</context>
@@ -156,7 +156,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
-        <target state="new">HH</target>
+        <target state="new">hh</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">13</context>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.hours" datatype="html">
         <source>Hours</source>
-        <target state="new">Hours</target>
+        <target state="new">Stunden</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">15</context>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
         <source>Decrement hours</source>
-        <target state="new">Decrement hours</target>
+        <target state="new">Stunde zurück</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">23</context>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
         <source>Increment minutes</source>
-        <target state="new">Increment minutes</target>
+        <target state="new">Minuten weiter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">32</context>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.MM" datatype="html">
         <source>MM</source>
-        <target state="new">MM</target>
+        <target state="new">mm</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">35</context>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.minutes" datatype="html">
         <source>Minutes</source>
-        <target state="new">Minutes</target>
+        <target state="new">Minuten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">37</context>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
         <source>Decrement minutes</source>
-        <target state="new">Decrement minutes</target>
+        <target state="new">Minuten zurück</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">45</context>
@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
         <source>Increment seconds</source>
-        <target state="new">Increment seconds</target>
+        <target state="new">Sekunden weiter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">54</context>
@@ -220,7 +220,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
-        <target state="new">SS</target>
+        <target state="new">ss</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">57</context>
@@ -228,7 +228,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.seconds" datatype="html">
         <source>Seconds</source>
-        <target state="new">Seconds</target>
+        <target state="new">Sekunden</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">59</context>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
         <source>Decrement seconds</source>
-        <target state="new">Decrement seconds</target>
+        <target state="new">Sekunden zurück</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">67</context>
@@ -269,10 +269,10 @@
       <trans-unit id="0ef49cc4a602fbec482e7f6281c70601acdcd802" datatype="html">
         <source>© 2002-2020 Summits on the Air. Summits on the Air, SOTA and the SOTA Logo are trademarks of the Programme.
       <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Questions or comments about this site should be directed to the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>webmaster<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Participation in SOTA is at your own risk.
-      See our <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>Acceptable Use Policy.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>Nutzungsbedingungen<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </source>
         <target state="new">© 2002-2020 Summits on the Air. Summits on the Air, SOTA und das SOTA-Logo sind eingetragene Warenzeichen.
-      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Fragen und Anregungen zur Webseite bitte an <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>webmaster<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Die Teilnahme an SOTA geschieht auf eigene Gefahr.
+      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Fragen und Anregungen zur Webseite bitte an das <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>SOTA Management Team<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>Die Teilnahme an SOTA geschieht auf eigene Gefahr.
       See our <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a>"/>Acceptable Use Policy.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
     </target>
         <context-group purpose="location">
@@ -299,7 +299,7 @@
       </trans-unit>
       <trans-unit id="AddNew" datatype="html">
         <source>Add New</source>
-        <target state="new">Add New</target>
+        <target state="new">Hinzufügen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">4</context>
@@ -374,8 +374,7 @@
           Callsign is required
         </source>
         <target state="new">
-          Ein Rufzeichen muss angegeben werden
-        </target>
+          Bitte ein Rufzeichen angeben </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">15</context>
@@ -394,7 +393,7 @@
           Valid Association code is required
         </source>
         <target state="new">
-          Eine gültige Assoziation muss angegeben werden
+          Bitte gültige Assoziation angeben
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -410,7 +409,7 @@
           Valid summit code is required (XX-YYY)
         </source>
         <target state="new">
-          Eine gültige Referenz muss angegeben werden (XX-YYY)
+          Bitte gültige Referenz angeben (XX-YYY)
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
@@ -607,7 +606,7 @@
       </trans-unit>
       <trans-unit id="Hours1" datatype="html">
         <source>1 Hour</source>
-        <target state="new">1 Hour</target>
+        <target state="new">eine Stunde</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">111</context>
@@ -647,7 +646,7 @@
       </trans-unit>
       <trans-unit id="Theme" datatype="html">
         <source>Theme: </source>
-        <target state="new">Anzeige: </target>
+        <target state="new">Design: </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">129</context>
@@ -679,7 +678,7 @@
       </trans-unit>
       <trans-unit id="AudioAlertOnNewSpots" datatype="html">
         <source>Audio alert on new spots: </source>
-        <target state="new">Akustischer Alarm bei neuem Spot: </target>
+        <target state="new">Akustische Meldung neuer Spots: </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/settings-form/settings-form.component.html</context>
           <context context-type="linenumber">139</context>
@@ -791,7 +790,7 @@
       </trans-unit>
       <trans-unit id="TimeLocal" datatype="html">
         <source>local</source>
-        <target state="new">Küchenzeit</target>
+        <target state="new">Ortszeit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">10</context>
@@ -807,7 +806,7 @@
       </trans-unit>
       <trans-unit id="SOTASummitsSite" datatype="html">
         <source>SOTA Summits Site</source>
-        <target state="new">SOTA-Gipfelseite</target>
+        <target state="new">SOTA-Berge</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">28</context>
@@ -815,7 +814,7 @@
       </trans-unit>
       <trans-unit id="RecentSummitInfo" datatype="html">
         <source>Recent Summit Info</source>
-        <target state="new">Aktuelle Infos Gipfel</target>
+        <target state="new">Aktuelle Infos Berge</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/navmenu/navmenu.component.html</context>
           <context context-type="linenumber">29</context>
@@ -903,7 +902,7 @@
       </trans-unit>
       <trans-unit id="Comments" datatype="html">
         <source>Comments</source>
-        <target>Kommentar</target>
+        <target>Kommentar:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">74</context>
@@ -919,7 +918,7 @@
       </trans-unit>
       <trans-unit id="CommentsHelp" datatype="html">
         <source>(Mention report, condx, etc. max 60 characters)</source>
-        <target state="new">(Report, condx, etc. max. 60 Zeichen)</target>
+        <target state="new">(Rapport, condx etc., max. 60 Zeichen)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">76</context>
@@ -927,7 +926,7 @@
       </trans-unit>
       <trans-unit id="PostedBy" datatype="html">
         <source>Posted By:</source>
-        <target state="new">Von:</target>
+        <target state="new">Gespottet von </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">79</context>
@@ -963,7 +962,7 @@
       </trans-unit>
       <trans-unit id="AlertsShowing" datatype="html">
         <source>Showing <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>filtered <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>alerts.</source>
-        <target state="new">Showing <x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>filtered <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>alerts.</target>
+        <target state="new"><x id="INTERPOLATION" equiv-text="{{alertsCount}}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>Ankündigungen<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>im Filter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">5</context>
@@ -971,7 +970,7 @@
       </trans-unit>
       <trans-unit id="Hide" datatype="html">
         <source>Hide </source>
-        <target state="new">Verbergen </target>
+        <target state="new">Einstellungen </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">8</context>
@@ -983,7 +982,7 @@
       </trans-unit>
       <trans-unit id="Settings" datatype="html">
         <source>Settings</source>
-        <target state="new">Einstellungen</target>
+        <target state="new">verbergen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">8</context>
@@ -1047,7 +1046,7 @@
       </trans-unit>
       <trans-unit id="DeleteAreYouSure" datatype="html">
         <source>Do you want to delete this alert?</source>
-        <target state="new">Soll diese Ankündigung gelöscht werden?</target>
+        <target state="new">Diese Ankündigung löschen?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">91</context>
@@ -1255,7 +1254,7 @@
       </trans-unit>
       <trans-unit id="SpottedOn" datatype="html">
         <source> spotted on </source>
-        <target state="new"> gehört auf </target>
+        <target state="new"> empfangen auf </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">86</context>
@@ -1315,7 +1314,7 @@
       </trans-unit>
       <trans-unit id="DeleteSpotAreYouSure" datatype="html">
         <source>Do you want to delete this spot?</source>
-        <target state="new">Soll dieser Spot gelöscht werden?</target>
+        <target state="new">Diesen Spot löschen?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">147</context>
@@ -1336,8 +1335,7 @@
       <trans-unit id="MoreTopics" datatype="html">
         <source>More
     topics...</source>
-        <target state="new">Mehr
-    topics...</target>
+        <target state="new">Zum SOTA Reflector</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/reflector-posts/reflector-posts.component.html</context>
           <context context-type="linenumber">22</context>
@@ -1389,7 +1387,7 @@
       </trans-unit>
       <trans-unit id="OtherMode" datatype="html">
         <source>Other</source>
-        <target state="new">Andere Modes</target>
+        <target state="new">Andere Betriebsarten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">28</context>
@@ -1409,7 +1407,7 @@
       </trans-unit>
       <trans-unit id="FilterExamples" datatype="html">
         <source>Filter examples:</source>
-        <target state="new">Beispiele Filter:</target>
+        <target state="new">Beispiele für Filter:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">31</context>
@@ -1429,7 +1427,7 @@
       </trans-unit>
       <trans-unit id="FilterExamples2" datatype="html">
         <source>'GM' or 'F/' or 'G/CE' or 'JA/GM-064'</source>
-        <target state="new">'DL' oder 'OE/' oder 'DM/TH' oder 'DM/NS-135'</target>
+        <target state="new">'DL' oder 'OE/' oder 'HB/NW' oder 'DM/NS-135'</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">32</context>
@@ -1617,7 +1615,7 @@
       </trans-unit>
       <trans-unit id="Mode" datatype="html">
         <source>Mode</source>
-        <target state="new">Mode</target>
+        <target state="new">Betriebsart</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">47</context>
@@ -1646,8 +1644,7 @@
       <trans-unit id="ShowingLatestSpots" datatype="html">
         <source>
         Showing latest <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>spots.</source>
-        <target state="new">
-        Anzeige: <x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>Spots.</target>
+        <target state="new"><x id="INTERPOLATION" equiv-text="{{ pageSize }}"/> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/><x id="INTERPOLATION_1" equiv-text="{{ mode }}"/> <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>Spots</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">8</context>
@@ -1655,7 +1652,7 @@
       </trans-unit>
       <trans-unit id="ShowingLastNumberSpots" datatype="html">
         <source>Showing <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> spots in last <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</source>
-        <target>Anzeige: <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> Spots der vergangenen <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/>.</target>
+        <target>Anzeige: <x id="ICU" equiv-text="{mode, select, all {...} other {...}}"/> Spots der vergangenen <x id="ICU_1" equiv-text="{invPageSize, plural, =1 {...} other {...}}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1671,7 +1668,7 @@
       </trans-unit>
       <trans-unit id="785d85f62181ae74b69e8fa19dadafac0b37eae0" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</source>
-        <target state="new">{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> hrs} }</target>
+        <target state="new">{VAR_PLURAL, plural, =1 {1 hr} other {<x id="INTERPOLATION" equiv-text="{{ invPageSize }}"/> h} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/spots.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1719,7 +1716,7 @@
       </trans-unit>
       <trans-unit id="HF" datatype="html">
         <source>HF</source>
-        <target state="new">HF</target>
+        <target state="new">KW</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">17</context>
@@ -1739,7 +1736,7 @@
       </trans-unit>
       <trans-unit id="VHF" datatype="html">
         <source>VHF</source>
-        <target state="new">VHF</target>
+        <target state="new">UKW</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">18</context>
@@ -1827,7 +1824,7 @@
       </trans-unit>
       <trans-unit id="ETAHelp" datatype="html">
         <source>(e.g. 1215) MUST BE UTC</source>
-        <target state="new">(z.B. 1215) immer UTC</target>
+        <target state="new">Immer UTC (z.B. 1215)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">59</context>
@@ -1835,7 +1832,7 @@
       </trans-unit>
       <trans-unit id="ETARequired" datatype="html">
         <source>ETA is required (in hhmm format)</source>
-        <target state="new">Bitte voraussichtliche Zeit eingeben (Format hhmm)</target>
+        <target state="new">Bitte voraussichtliche Zeit eingeben (hhmm)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">61</context>
@@ -1843,7 +1840,7 @@
       </trans-unit>
       <trans-unit id="FreqMode" datatype="html">
         <source>Frequency-Mode(s)</source>
-        <target state="new">Frequenz und Mode</target>
+        <target state="new">Frequenz und Betriebsart</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">66</context>
@@ -1851,7 +1848,7 @@
       </trans-unit>
       <trans-unit id="FreqModeHelp" datatype="html">
         <source>Format: [Freq-mode, freq2-mode2, ...] max 40 characters.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>(e.g. 7.030-cw, 14.250-ssb). Mode should be: am, cw, data, dv, fm, ssb or other. </source>
-        <target state="new">Format: [Freq-mode, freq2-mode2, ...] max. 40 Zeichen.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>(e.g. 7.030-cw, 14.250-ssb). Mode should be: am, cw, data, dv, fm, ssb or other. </target>
+        <target state="new">Format: [Freq-mode, freq2-mode2, ...] max. 40 Zeichen.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>(z.B. 7.030-CW, 14.250-SSB). Modes: AM, CW, Data, DV, FM, SSB oder andere. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/form/alert-form.component.html</context>
           <context context-type="linenumber">68</context>
