@@ -1685,7 +1685,7 @@
       </trans-unit>
       <trans-unit id="On" datatype="html">
         <source> on</source>
-        <target state="new">em</target>
+        <target state="new"> em</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">60</context>
