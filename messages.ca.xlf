@@ -1517,7 +1517,7 @@
       </trans-unit>
       <trans-unit id="FM" datatype="html">
         <source>FM</source>
-        <target state="new"> FM </target>
+        <target state="new">FM</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/alerts/alerts.component.html</context>
           <context context-type="linenumber">26</context>
@@ -1741,7 +1741,7 @@
       </trans-unit>
       <trans-unit id="AssociationCode" datatype="html">
         <source>Association Code</source>
-        <target state="new">Codi do Grup</target>
+        <target state="new">Codi d'agrupació</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/spots/form/spot-form.component.html</context>
           <context context-type="linenumber">19</context>
